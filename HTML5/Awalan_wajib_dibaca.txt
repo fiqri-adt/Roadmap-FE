@@ -1,0 +1,18 @@
+Alasan menulis Semantic HTML
+1. Accessibility (Mudah dibaca user)
+2. Maintainability (Mudah dibaca developer)
+3. SEO (Mudah dibaca mesin pencari)
+
+- HTML harus ditulis dengan merepresentasikan data yang akan ditampilkan, bukan berdasarkan bagaimana dia ditampilkan(style).
+- Memudahkan aksesibilitas, terutama saat menggunakan screen reader
+- Lebih mudah mencari dan mengelola code yang memiliki makna
+- Berpengaruh pada SEO, karena semantic HTML dianggap sebagai kata kunci yang penting
+
+Kategori Element HTML5
+- Metadata = untuk mendeskripsikan info dari website
+- Flow = element yang biasa digunakan dalan website
+- Sectioning = element2 untuk menjelaskan bagian2 tertentu dari website
+- Heading = untuk menuliskan judul
+- Phrasing = untuk menjelaskan info yang ada dalam web kita
+- Embedded = element2 multimedia yang bisa dimasukan ke halaman website
+- Interactive = element2 yang bisa diberikan interaksi konten
