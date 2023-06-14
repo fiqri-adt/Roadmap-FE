@@ -16,3 +16,65 @@ Kategori Element HTML5
 - Phrasing = untuk menjelaskan info yang ada dalam web kita
 - Embedded = element2 multimedia yang bisa dimasukan ke halaman website
 - Interactive = element2 yang bisa diberikan interaksi konten
+
+Contoh Semantic Element HTML5
+- main
+- article
+- header
+- footer
+- aside
+- nav
+
+dokumentasi nya: 
+https://html.spec.whatwg.org/multipage/dom.html#content-categories
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+https://www.w3.org/TR/html5/dom.html#content-categories
+
+WAI - ARIA / Web Accessibility Initiative - Accessibility Rich Internet Applications
+- WAI - ARIA adalah standar khusus untuk mengubah tampilan elemen HTML5
+- WAI - ARIA memungkinkan elemen HTML5 untuk mengubah tampilan elemen lain 
+
+Media Elements
+1. Image Elements
+- <img>
+- <figure></figure>
+- <picture></picture>
+
+2.
+- <video></video>:
+1.1 atribut:
+- controls="controls" 
+- autoplay="autoplay" 
+- loop="loop" 
+- muted="muted", 
+- poster="" 
+- src
+- preload
+- muted
+- width
+- height
+
+1.2 track:
+- src: sumber
+- kind: jenis track nya (title / sub title, caption, description, capture)
+- title
+- srclang: kode bahasanya
+- embed: cara ambil url video dari luar 
+
+
+- <audio></audio>:
+2.1 audio
++ atribut:
+- src: alamat
+- controls: kendali
+- preload: di load dlu baru play
+- autoplay: di play langsung
+- loop: audio diputar kembali jika sudah sampai akhir
+- muted: membuat audio tidak ada suara nya
++ tag:
+- source: ganti video atau audionya (srcset)
+- track: subtitle
+- <audio></audio>: 
+2.1.1 digunakan untuk menjalankan file audio
+2.1.2 file yang didukung: .mp3, .wav, .ogg
+2.1.3 bisa menggunakan tag <source> untuk memilih audio
