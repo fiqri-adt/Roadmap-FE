@@ -78,3 +78,36 @@ Media Elements
 2.1.1 digunakan untuk menjalankan file audio
 2.1.2 file yang didukung: .mp3, .wav, .ogg
 2.1.3 bisa menggunakan tag <source> untuk memilih audio
+
+
+3. Canvas:
+3.1 karakteristik:
+- Digunakan utk menggambar gradis menggunakan javascript
+- Biasa digunakan utk membuat: animasi, game, visualisasi data, manipulasi foto dan pemrosesan video secara real-time.
+- Dapat berisi object 2d atau 3d
+- Menggunakan canvas API atau webGL API
+
+3.2 atribut:
+- width
+- height
+
+*Canvas API
+- Grid
+
+3.3 Beberapa Library 3rd Party Canvas:
+- d3.js 
+- three.js 
+- p5.js 
+- matter.js
+- phaser
+- babylon.js
+
+3.4 Canvas API Shapes:
+        - Rectangle
+        - Arc / Circle
+        - Path
+        - Bezier & Quadratic Curve
+
+3.5 Canvas API animasi:
+- requestAnimationFrame()
+- clearRect()
