@@ -111,3 +111,46 @@ Media Elements
 3.5 Canvas API animasi:
 - requestAnimationFrame()
 - clearRect()
+
+
+4. SVG: Scalable Vector Graphic
+4.1 Karakteristik:
+- adalah format gambar vector dengan tingkat detail lebih baik daripada bitmap image
+- hanya memerlukan satu file svg untuk semua resolusi dari layar kecil sampai besar
+- mampu memperbesar/memperdolong elemennya tanpa perlu melakukan rescaling
+- kompresi ukuran file terkecil dalam halaman HTML
+- sangatlah efisien di browser modern
+- Digunakan utk membuat gambar yang tidak akan hilang kualitas nya meskipun diperbesar.
+- Bisa dengan cara membuat sendiri garis dan bentuknya.
+- Atau dengan menggunakan grafis svg terpisah (.svg).
+- Setiap elemen didalam SVG dapat dimanipulasi menggunakan bantuan css.
+
+4.2 Atribut:
+
+4.3 Keuntungan SVG:
+- Scalability
+- Interactivity
+- Easily editable
+- Compact file size
+- SEO friendly
+
+4.4 SVG Basic Shapes:
+- Rectangle
+- Circle
+- Ellipse
+- Line
+- Polygon
+- Path
+
+4.5 Path Commands:
+- MoveTo: M, m
+- LineTo: L, l, H, h, V, v 
+- Cubic Bezier Curve: C, c, S, s 
+- Quadratic Bezier Curve: Q, q, T, t 
+- Elliptical Arc Curve: A, a 
+
+4.6 SVG Resource:
+- blobmaker.app 
+- shapedivider.app 
+- svgrepo.com 
+- simpleicons.org 
