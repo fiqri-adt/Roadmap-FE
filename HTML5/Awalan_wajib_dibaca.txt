@@ -154,3 +154,85 @@ Media Elements
 - shapedivider.app 
 - svgrepo.com 
 - simpleicons.org 
+
+5. Form Validation:
+- Client Side 
+- Server Side 
+
+5.1 Client Side Validation:
+- html5 built-in validation :
+1.1 Input types:
+- email
+- tel 
+- url 
+- number
+- range 
+- datetime picker 
+- color picker
+1.2 Attribut
+- autocomplete (input / form)
+- required (input / select / textarea )
+- pattern (input type = text/email/url/tel/number)
+- minlength & maxlength (textarea)
+- step (range input)
+- autofocus
+- min & max 
+
+1.3 CSS validation pseudo-class:
+- :required
+- :invalid
+- :valid
+
+1.4 javascript custom validation:
+- oninvalid
+-setCustomvalidity()
+
+6. Web Storage:
+6.1 Local Storage
+6.2 Session Storage
+6.3 Digunakan kapan:
+- preferensi user
+- Setting & Configuration
+- Score & Leaderboards pd game 
+- Posisi Video / audio terakhir
+6.4 Jangan digunakan untuk:
+- Data Sensitif
+- Otentikasi
+6.5 localStorage & SessionStorage Properties:
+- setItem(key,value): Menyimpan pasangan key/value.
+- getItem(key): Mengambil nilai dari suatu item berdasarkan nama yang diberikan sebagai
+parameter ke function ini.
+- removeItem(key): Hapus data dengan mengetahui nama keynya.
+- clear(): menghapus semua data storage.
+- key(index): Mengambil nilai key berdasarkan index.
+- length: mengetahui jumlah nilai didalam storage.
+
+7. Accessibility: Sebuah cara utk membuat website kita bisa digunakan oleh sebanyak mungkin User.
+
+7.1 Web Accessibility Tips:
+- Buat struktur DOM yang masuk akal 
+dan mudah dibaca.
+- Gunakan heading tag hanya satu level pada tiap halaman web Anda.
+- Pastikan konten dan navigasi tetap ada apabila elemen visual tidak ditampilkan ataupun dinonaktifkan.
+- Gunakan semantic Element 
+- Interactive control:
+1.Gunakan elemen yang sesuai, jangan gunakan div atau span
+1.1 Screen reader tidak menganggap div / span sebagai control
+1.2 Div/Span tidak focusable, sehingga tidak bisa diaktifkan menggunakan keyboard 
+- Beri label pada semua kontrol dan gambar
+- Terapkan manajemen fokus yang intuitif:
+1. Pengguna keyboard melakukan navigasi dengan memindahkan fokus melalui DOM 
+2. Sebisa mungkin gunakan elemen Interactive
+3. Jika tidak, gunakan tabindex agar elemen custom menjadi focusable 
+4. elemen kontrol yang custom harus merespon tombol seperti enter & spasi
+- Website bisa diakses penuh dengan hanya menggunakan keyboard
+- Tambahkan 
+
+7.2 struktur DOM + Accessibility
+- DOM Tree -> dilihat oleh user normal
+- Accessibility Tree -> dilihat oleh user luar biasa
+
+7.3 Accessibility Testing:
+- WAVE (Web Accessibility Evaluation Tool) : https://wave.webaim.org/extension/
+- Chrome Lighthouse
+- WCAG
