@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo Class</title>
+    <style>
+      .helo:link {
+        color: blue;
+      }
+
+      .helo:hover {
+        color: orange;
+        font-family: "Courier New", Courier, monospace;
+        font-size: 24px;
+      }
+
+      .helo:active {
+        font-style: italic;
+      }
+
+      .helo:visited {
+        color: green;
+      }
+
+      li:first-child a {
+        color: red;
+      }
+      li:last-child a {
+        color: green;
+      }
+      li:nth-child(3) a {
+        color: purple;
+      }
+      li:nth-child(2n) a {
+        color: yellow;
+      }
+
+      li:nth-child(even) a {
+        color: gray;
+      }
+
+      li:nth-child(odd) a {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="#" class="helo">Halooo</a>
+
+    <ul>
+      <li><a href="#">Link 1</a></li>
+      <li><a href="#">Link 2</a></li>
+      <li><a href="#">Link 3</a></li>
+      <li><a href="#">Link 4</a></li>
+      <li><a href="#">Link5</a></li>
+    </ul>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt illo labore
+      ut cupiditate quos, sed illum rem commodi cumque eaque, nesciunt eveniet.
+      Nihil quidem, non ullam et iusto mollitia voluptatem?
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, hic
+      voluptatum fugiat aliquam illo unde nulla ut libero mollitia officia,
+      laudantium sit qui quia, dolorem repudiandae id ad consequuntur! Esse!
+    </p>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+---//---
+CSS inheritance (Pewarisan):
+
+Properties yang diwariskan:
+1. color
+2. font
+3. letter spacing
+4. line height
+5. list style : type, image dan positioning
+6. text align
+7. text ident
+8. text transaform
+7. vertical align
+8. visibility
+9. white space
+10. word wrap
+
+cth:
+
+a { color: inherit; }

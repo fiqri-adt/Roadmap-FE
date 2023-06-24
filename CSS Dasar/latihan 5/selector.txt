@@ -1,0 +1,29 @@
+Selector:
+1. Element HTML
+2. id
+3. class
+4. complex Selector
+
+Separator: cara menggabungkan element tag HTML pada css
+
+cth: 
+h1,h2{
+    color: gray;
+}
+
+dan 
+
+ul li a{
+    color: red;
+}
+
+1. tanda "," disini disebut juga sebagai "dan"
+2. menggunakan spasi diartikan adalah memberi css lebih spesifik pada bagian elemen yang berada didalam element
+
+----////---
+id:
+1. Sebuah Element HTML hanya boleh memiliki 1 id
+2. Setiap halaman hanya boleh memiliki 1 elemen dengan id tsb
+3. Dapat digunakan sebagai penanda halaman utk link
+4. digunakan juga utk JS
+5. Sebaiknya tidak digunakan untuk CSS

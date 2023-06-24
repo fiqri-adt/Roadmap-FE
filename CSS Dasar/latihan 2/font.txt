@@ -1,0 +1,22 @@
+- Font style:
+1. font-family: mengatur font yang akan digunakan
+2. font-size: mengatur ukuran font
+3. font-weight: mengatur ketebalan font 
+4. font-variant: mengubah font menjadi small caps
+5. font-styleL mengubah font menjadi cetak miring
+6. line-height: mengatur spasi antar baris
+
+------////-----
+1. Font-family: nama font, generic font
+2. font-size: px, %, em
+3. font-weight: lighter, normal, 100-900, bold, bolder
+4. font-variant: normal, small-caps
+5. font-style: normal, italic, oblique
+6. line-height: normal, px, em
+
+- CSS short hand:
+1. body {
+    font: italic normal bold 16-x/18px arial, sans-serif;
+}
+
+urutannya: font-style, font-variant, font-weight, font-size, line-height, font-family

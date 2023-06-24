@@ -1,0 +1,33 @@
+Cascading Style Sheet (CSS): Mengatur gaya/style pada halaman web
+
+apa itu css?
+- Aturan yang digunakan untuk menampilkan element/tag HTML
+- Dibuat terpisah dengan HTML
+- Bertujuaan utk memisahkan konten dengan Style 
+- 1 CSS dapat digunakan untuk banyak halaman HTML 
+- 1 halaman HTML dapat terlihat berbeda jika menggunakan CSS yang berbeda pula
+
+1. Anatomi CSS 
+
+contoh:
+
+h1 {color: red};
+
+penjelasan:
+- h1 = selector
+- color: = property
+- red = value
+
+
+1. selector: 
+1.1 Digunakan utk memilih dan memanipulasi elemen spesifik pada HTML.
+1.2 Elemen HTML dipilih berdasarkan tag, id, class bahkan pola / pattern.
+1.3 Semakin kompleks struktur HTML, selector juga bisa semakin spesifik.
+
+ref: 
+1. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+2. https://css-tricks.com/almanac
+
+- embed: <style></style>
+- inline: <p style='color: lightblue;">...</p>
+- external: <link rel="stylesheet" href="style.css">

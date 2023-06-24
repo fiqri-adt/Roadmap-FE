@@ -1,0 +1,31 @@
+CSS pseudo class: 
+kelas semu yang dimiliki oleh sebuah element HTML, yang membuat kita dapat mendefinisikan style pada keadaan tertentu.
+
+:link = styke default pada sebuah link (a yang memiliki href)
+
+:hover = style ketika kursor mouse berada diatas sebuah link / element.
+
+:active = style ketika sebuah link di klik (keadaan aktif).
+
+:visited = style ketika sebuah link sudah pernah dikunjungi sebelumnya (Menggunakan browser yang sama).
+
+----///----
+pseudo class yang berhubungan dengan posisi element:
+
+- :first-child = memilih elemen pertama dari sebuah parent (elemen pembukusnya)
+- :last-child = memilih elemen terakhir dari sebuah parent (elemen penutupnya)
+- :nth-child(n) = menentukan urutan keberapa suatu elemen dalam list, n adalah angka
+tertentu.
+contoh: li:nth-child(2), akan mengambil elemen keempat dari daftar ul atau ol.
+- :only-child = hanya mencari satu child dari sebuah parent
+- :empty = memerlukan elemen tidak mempunyai children apapun
+- :target = digunakan untuk merujuk kepada target tertentu saat page load.
+
+
+- first-of-type: memilih element pertama dari sebuah jenis/tipe target
+- last-of-type: memilih element akhir dari sebuah jenis/tipe target.
+
+- nth-of-type(): memilih elemen keberapa dari sebuah jenis/tipe target.
+
+- only-of-type() memilih elemen yang bukanlah salah satu dari beberapa elemen yang ada didalam sebuah group
+

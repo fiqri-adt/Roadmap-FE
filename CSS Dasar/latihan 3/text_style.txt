@@ -1,0 +1,28 @@
+ref: codepen.io
+
+
+Text:
+1. color: memberi warna pada tulisan
+2. text-align: mengatur format paragraf / text
+3. text-indent: memberi indentasi pada paragraf /text
+4. text-decoration: mengatur decoration pada text
+5. text-transform: mengubah jenis huruf menjadi huruf besar, kecil, atau kapital
+6. letter-spacing: mengatur spasi antar huruf
+7. word-spacing: mengatur spasi antar kata
+
+-----///-----
+1. Color:
+1.1 nama warna: red, blue, dll.
+1.2 hexadecimal: #fff, #ff0, dll.
+1.3 rgb(): r(ed), g(reen), b(lue)/ rgb(255,0,0), rgb(32,178,170), rgb(65,105,225), dll
+
+2. Text Align:
+left/right/center/justify(default)
+3. Text Indentation:
+mengatur indentation (spasi di depan) dari sebuah teks dengan nilai dalam px dan em. defaultnya 0px/%.
+4. Text Decorations:
+underline/overline/linethrough/none(default). untuk underline dapat memilih thickness yang ditampilkan oleh browser.
+5. text-transform: memaksa huruf jadi besar semua atau kecil semua.
+none / lowercase / uppercase / capitalize
+6. letter-spacing: normal, px
+7. word-spacing: normal, px

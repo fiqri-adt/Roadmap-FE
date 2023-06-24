@@ -1,0 +1,28 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1,
+h2 {
+  color: green;
+}
+
+ul li a {
+  color: red;
+}
+ol li a {
+  color: gray;
+}
+
+#p1 {
+  color: aqua;
+}
+
+.p2 {
+  color: yellow;
+}
+
+p .cetak-tebal {
+  font-weight: 600;
+  font-size: 100px;
+}
