@@ -1,0 +1,16 @@
+Specificity CSS:
+Setiap deklarasi css (selector) memiliki berat yang berbeda - beda. Berikut ini adalah contohnya :
+/* style untuk semua elemen dengan class "myclass" */ .myclass { font-size: 16px; }
+/* style untuk seluruh element <p> di dalam sebuah dokumen HTML, term
+asuk juga tag span dan div */ p,span,div { color:#00f; background-color:#fff;}
+/* style untuk setiap link ke halaman lain dari situs web kita*/ 
+a {text-decoration:none}
+
+cara itung berat nya:
+
+inline = 0
+id = 0
+class = 0
+elemen = 0
+
+ref: https://specificity.keegan.st 
