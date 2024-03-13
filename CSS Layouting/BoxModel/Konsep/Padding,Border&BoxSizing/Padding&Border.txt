@@ -1,0 +1,4 @@
+Margin: area transparan di sekitar kotak (di luar border),
+Padding: area transparan di dalam kotak (antara konten dan border),
+Border: batas di sekeliling konten dan padding,
+konten: isi dalam box, bisa berupa teks atau gambar.

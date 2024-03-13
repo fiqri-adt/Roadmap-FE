@@ -1,0 +1,22 @@
+CSS Position adalah cara untuk menggeser elemen yang kita mau tanpa mempengaruhi elemen lainnya.
+
+position ada beberapa value:
+1. static
+2. relative
+3. absolute
+4. fixed
+
+
+CSS Position
+-----------------------------------------------------------
+
+- static adalah nilai default dari tiap-tiap elemen ketika tidak diberi properti position,
+- Menggunakan position selain static (non-static), akan membuat sebuah elemen menjadi seolah-olah berbeda dimensi dari elemen lainnya,
+- Elemen yang diberi position selain static dapat menggunakan properti top, left, bottom, dan right untuk mengatur posisinya.
+
+
+Properti relative
+-----------------------------------------------------------
+- Ketika kita menggerakan elemen dengan position relative (menggunakan propeti top, left, bottom dan right), ruang yang ditempati oleh elemen tersebut masih ada,
+- Ketika kita menggerakan elemen dengan posisi relative, elemen akan bergerak relatif terhadap posisi semula nya,
+- Jika kita memberi properti top: 0; dan left: 0; maka elemen tidak berubah posisinya.

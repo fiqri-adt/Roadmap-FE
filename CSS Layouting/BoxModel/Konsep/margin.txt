@@ -1,0 +1,5 @@
+Margin:
+- Overlapping margin, = menggabbungkan 2 margin.
+- negatif margin,
+- auto,
+- shorthand.

@@ -1,0 +1,11 @@
+Absolute
+--------------------------------------------
+- Ketika kita menggerakkan elemen dengan posisi absolute (menggunakan properti top, left, bottom , dan right), ruang yang ditempati oleh elemen tsb dianggap tidak ada,
+- Ketika kita menggerakkan elemen dengan posisi absolute, elemen akan bergerak relatif terhadap posisi dari elemen parent-nya,
+Selama elemen parent nya memiliki posisi yang juga non-static.
+- Jika memberi properti top: 0; dan left: 0; maka elemen akan berada di ujung kiri atas dari elemen parent nya.
+
+Fixed
+--------------------------------------------
+- Akan relatif pada window nya, dan tidak akan pedulikan walaupun parent nya non static,
+- Ketika scroll posisi nya akan terkunci pada tempat tersebut,

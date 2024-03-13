@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan Display</title>
+    <!-- Display: 
+    Inline: 
+    - Element HTML yang secara default tidak menambahkan baris baru ketika dibuat.
+    - Lebar dan tinggi elemennya sebesar konten yang ada didalamnya.
+    - Kita tidak dapat mengatur tinggi dan lebar dari elemen inline.
+    - Margin dan padding hanya mempengaruhi elemen secara horizontal, tidak vertical.
+    
+    *Element Inline: b, strong, i, em, a, span, sub, sup, button, input, label, select, textarea.
+
+    Inline-block:
+    - Tidak ada elemen yang secara default memiliki properti display: inline-block;
+    - Kita harus ubah secara manual properti tersebut.
+    - Perilaku dasarnya sama dengan element inline.
+    - Perbedaannya, element inline-block dapat kita atur tinggi dan lebarnya.
+
+    Block:
+    - Elemen HTML yang secara default menambahkan baris baru ketika dibuat,
+    - Jika tidak diatur lebarnya, maka lebar default dari elemen block akan memenuhi lebar dari browser nya.
+    - Kita dapat mengatur tinggi dan lebar dari elemen block.
+    - Didalam elemen block, kita dapat menyimpan tag dengan elemen inline, inline-block, atau bahkan elemen block lagi.
+
+    *elemen Block: h1 s/d h6, p, ol, ul, li, form, hr, div.
+
+    None:
+    - Digunakan untuk menghilangkan sebuah elemen
+    -->
+
+    <style>
+      /* .nav li {
+        display: inline;
+      } */
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Selamat Datang</h1>
+    </div>
+
+    <div class="nav">
+      <h2>Ini Logo</h2>
+      <!-- Rumus cepat: ul>li*5>a[href=#]{Link $} -->
+      <ul>
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+        <li><a href="#">Link 4</a></li>
+        <li><a href="#">Link 5</a></li>
+      </ul>
+    </div>
+
+    <div class="main">
+      <h3>Judul Artikel</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+        officia ipsum, quo numquam enim autem accusamus quos? Repellat, delectus
+        deserunt tempore id culpa esse quas quam fugiat, nesciunt veniam ullam.
+      </p>
+    </div>
+  </body>
+</html>

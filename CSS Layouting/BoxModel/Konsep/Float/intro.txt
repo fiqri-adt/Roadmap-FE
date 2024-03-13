@@ -1,0 +1,36 @@
+Float merupakan properti pada CSS untuk mengatur posisi sebuah elemen. Sebuah elemen dapat dipaksa untuk berada di sebelah kiri atau kanan dari parent/ pembungkusnya dengan menggunakan properti ini.
+
+Float:
+- Kiri/Left
+- Kanan/Right
+- None
+
+Normal flow VS Out-of flow
+
+
+---------------------------
+
+Yang bisa dilakukan menggunakan properti Float
+
+1. Text Wrapping: membuat text mengelilingi gambar / elemen lain.
+2. Image Gallery: membuat serangkaian gambar menjadi Gallery,
+3. Multi-column layout: membuat halaman memiliki beberapa kolom,
+4. Sidebars and navigation menus: membuat sidebar atau navigasi menu yang bergerak di sebelah kiri atau kanan
+5. Clearing Floats
+
+
+----------------------------
+
+Cara menghentikan / membersihkan Float
+
+1. menggunakan properti overflow
+2. menggunakan DIV kosong
+3. menggunakan teknik micro clearfix - paling aman dan benar (cari di google dengan search "micro clearfix")
+
+----------------------------
+
+Clear: berfungsi menghentikan atau membersihkan Float
+
+1. Left
+2. Right
+3. Both
