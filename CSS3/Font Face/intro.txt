@@ -1,0 +1,25 @@
+"Font yang dipakai harus ada di sistem operasi client / user."
+
+@font-face = ini dilakukan ketika menurut mu satu font tidak cukup.
+
+contoh:
+
+@font-face{
+    font-family: 'namaFontBaru';
+    src: url(lokasi file font kamu/namaFontBaru.eot);
+    src: url(lokasi file font kamu/namaFontBaru.eot?#iefix) format('embedded-opentype'),
+        url(lokasi file font kamu/namaFontBaru.woff) format('woff'),
+        url(lokasi file font kamu/namaFontBaru.woff2) format('woff2'),  
+        url(lokasi file font kamu/namaFontBaru.ttf) format('truetype');
+}
+
+- Layanan font:
+1. font.google.com
+2. fontsquirell.com
+3. typekit.com
+4. fontspring.com
+5. webtype.com
+6. typothrque.com
+7. dll.
+
+Note: Lihat lagi layanan font nya gratis apa nggk, ada license nya apa nggk.

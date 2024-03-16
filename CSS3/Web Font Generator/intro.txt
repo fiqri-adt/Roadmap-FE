@@ -1,0 +1,10 @@
+WOFF / WOFF2
+-----------------------------------------
+1. Web Open File Format
+2. Dikembangkan oleh mozilla
+3. Dibuat khusus untuk website
+4. Di-load lebih cepat daripada jenis font yang lain
+5. Merupakan kompresi dari tipe TTF/OTF
+
+
+Web Font Generator: untuk merubah format TTF menjadi WOFF/WOFF2

@@ -1,0 +1,32 @@
+radial Gradient
+--------------------------------
+Adalah bukan property CSS3, melainkan value untuk background-img
+
+- sintaks sederhana: 
+background-image: radial-gradient(warna awal, warna akhir),
+
+- bisa juga:
+background: radial-gradient(warna awal, warna akhir),
+
+- Multiple Color:
+background:
+    radial-gradient(warna 1, warna 2, ... , warna - n)
+
+- Sintaks Lengkap:
+background:
+    radial-gradient(tipe jangkauan at posisi-y posisi-x, warna-1, warna-2,..., warna-n)
+
+    - Tipe: ellipse, circle.
+    - Jangkauan: jarak dari pusat gradient ke sisi terluar-nya. Berikut contohnya:
+        1. Closest-corner: jarak dari  pusat gradient ke sudut terdekat elemen,
+        2. Closest-side: jarak dari pusat gradient le sisi terdekat elemen,
+        3. Farthest-corner: jarak dari pusat gradient ke sudut terjauh elemen,
+        4. Farthest-side: jarak dari pusat gradientke sisi terjauh elemen.
+    
+    - Posisi:
+        1. Posisi-y: Top, Center, Bottom, (px),
+        2. Posisi-x: left, center, right, (px).
+
+- Arah: to bottom, to top, to left, to right / Mau kasih diagonal: to left top, to left bottom, to right top, to right bottom.
+
+- Color stop: memberikan batas ukuran persen pada warna.

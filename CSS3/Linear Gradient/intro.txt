@@ -1,0 +1,22 @@
+Linear Gradient
+--------------------------------
+Adalah bukan property CSS3, melainkan value untuk background-img
+
+- sintaks sederhana: 
+background-image: linear-gradient(warna awal, warna akhir),
+
+- bisa juga:
+background: linear-gradient(warna awal, warna akhir),
+
+- Multiple Color:
+background:
+    linear-gradient(warna 1, warna 2, ... , warna - n)
+
+- Sintaks Lengkap:
+background:
+    linear-gradient(sudut | arah, warna awal, warna akhir)
+
+
+- Arah: to bottom, to top, to left, to right / Mau kasih diagonal: to left top, to left bottom, to right top, to right bottom.
+
+- Color stop: memberikan batas ukuran persen pada warna.

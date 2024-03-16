@@ -1,0 +1,15 @@
+Sintaks khusus yang harus ditambahkan untuk beberapa property CSS3,
+Sintaks spesifik untuk tiap browser / vendor,
+
+Cara menambahkannya:
+1. -webkit-
+2. -moz-
+3. -ms-
+4. -o-
+
+Properti CSS3 apa saja yang butuh vendor prefix? Berikut link refrensi untuk tau Properti apa saja yang butuh vendor prefix;
+
+1. shouldiprefix.com
+2. caniuse.com
+3. pleeease.io/play
+4. emmet.io
