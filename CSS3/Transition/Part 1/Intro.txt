@@ -1,0 +1,28 @@
+Transition: Properti yang memungkinkan kita dapat mengubah nilai dari propety HTML secara halus.
+
+Transition: perubahan yang dimulai dengan awalan dan akhiran.
+
+contoh parameter: propety, durasi (s/ms), fungsi, dan delay.
+
+1. Properti: all, nama properti, none.
+2. Properti yang bisa di Animasikan:
+- Background-color,
+- Background position,
+- Background-size,
+- Border,
+- Color,
+- Filter,
+- Font-size,
+- Line-height,
+- Opacity,
+- Top, Left, Bottom, Right.
+- Margin , Padding.
+- Width, height.
+- Transform,
+- Word-spacing,
+- Letter-spacing.
+
+3. Properti yang tidak bisa di Animasikan:
+- Font-family,
+- Display,
+- Position.

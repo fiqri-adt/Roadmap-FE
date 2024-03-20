@@ -1,0 +1,15 @@
+Animation: pembuatan Animation terdapat pada key frame.
+
+- Nilai yang bisa dimasukan dalam property Animation:
+= name, duration, timing-function, delay, iteration-count (angka || infinite), direction (normal, reverse, alternate, alternate-reverse), fill-mode (none, forwards, backwards, both), play-state (running, paused).
+
+Contoh propertinya:
+
+@keyframes [name]{
+    from{
+        [property-css]
+    }
+    to{
+        [property-css]
+    }
+}

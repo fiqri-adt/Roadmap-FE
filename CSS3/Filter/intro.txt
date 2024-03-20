@@ -6,13 +6,13 @@ tag:
 filter: tipe filter;
 
 - Tipe filter:
-1. blur,
-2. brightness,
-3. contrast,
-4. saturate,
-5. grayscale,
-6. sepia,
-7. hue-rotate,
-8. invert,
-9. opacity,
-10. drop-shadow
+1. blur (px),
+2. brightness (angka || % ),
+3. contrast (angka || % ),
+4. saturate (angka || % ),
+5. grayscale (angka || % ),
+6. sepia (angka || % ),
+7. hue-rotate (deg),
+8. invert (angka || % ),
+9. opacity (angka || % ),
+10. drop-shadow (sama seperti Box-shadow).  

@@ -1,0 +1,15 @@
+Transform: Properti yang memungkin kan kita dapat memanipulasi format visual dari elemen HTML.
+
+- Ada 2 jenis:
+1. 2D
+2. 3D
+
+Cara nulisnya:
+
+transform: fungsi;
+
+- Ada 4 fungsi yang bisa digunakan:
+1. Scale: memperbesar/ memperkecil,
+2. Rotate: memutar,
+3. skew: membuat condong / miring,
+4. translate: mengubah posisi.

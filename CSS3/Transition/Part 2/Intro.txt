@@ -1,0 +1,11 @@
+Next bahas parameter lanjutan dari Transition.
+
+- Fungsi: fungsi transisi / timing function.
+
+- Beberapa nilai yang bisa diberikan:
+1. ease (default),
+2. ease-in,
+3. ease-out,
+4. ease-in-out,
+5. linear,
+6. cubic-bezier(w,x,y,z).
