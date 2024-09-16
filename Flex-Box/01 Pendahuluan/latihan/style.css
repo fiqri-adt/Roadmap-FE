@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  width: 600px;
+  height: 150px;
+  border: 3px solid #333;
+  margin: 30px auto;
+  padding: 6px;
+  box-sizing: border-box;
+  /* flex-direction: row; */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+  /* flex-wrap: wrap; */
+  /* flex-wrap: nowrap; */
+  /* flex-wrap: wrap-reverse; */
+  /* justify-content: center; */
+  /* justify-content: flex-start; */
+  /* justify-content: flex-end; */
+  /* justify-content: space-around; */
+  /* justify-content: space-between; */
+  /* justify-content: space-evenly; */
+  /* align-items: center; */
+  /* align-items: flex-start; */
+  /* align-items: flex-end; */
+  /* align-items: baseline; */
+  /* align-items: stretch; */
+}
+
+.container div {
+  background-color: rgb(0, 123, 255);
+  margin: 2px;
+  flex: 1;
+}
+
+/* Cara untuk gunakan properti baseline */
+
+/* .container div.tiga {
+  font-size: 32px;
+}
+
+.container div.empat {
+  font-size: 52px;
+} */
+
+/* Cara pakai Properti Order */
+/* 
+.satu {
+  order: 3;
+}
+.dua {
+  order: 1;
+}
+.tiga {
+  order: 2;
+}
+.empat {
+  order: 4;
+} */
+
+.container div.dua {
+  flex: 2;
+}

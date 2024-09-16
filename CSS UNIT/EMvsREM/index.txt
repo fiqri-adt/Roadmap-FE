@@ -1,0 +1,14 @@
+EM Unit
+
+Definisi: em adalah unit relatif yang bergantung pada ukuran font elemen induk (parent element).
+
+Kegunaan: em sering digunakan untuk ukuran font, padding, margin, dan lainnya.
+
+REM Unit
+Definisi: rem adalah unit relatif yang bergantung pada ukuran font root element (biasanya <html>).
+
+Kegunaan: rem sering digunakan untuk memastikan konsistensi di seluruh halaman, karena hanya bergantung pada ukuran font root.
+
+Perbandingan Praktis
+em: Bergantung pada konteks elemen induk.
+rem: Konsisten di seluruh halaman karena bergantung pada elemen root.

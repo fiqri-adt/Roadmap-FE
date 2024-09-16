@@ -1,0 +1,50 @@
+Definisi calc(): Fungsi pada CSS, yang memungkinkan kita melakukan operasi matematika / kalkulasi pada nilai dari sebuah properti.
+
+Nilai yang bisa dikelola diantaranya;
+<length></length>
+<angle></angle>
+<time></time>
+<frequency></frequency>
+<resolution></resolution>
+<percentage></percentage>
+<length-percentage></length-percentage>
+<number></number>
+
+Contoh:
+properti: calc(expression)
+
+*/Penjumlahan
+width: calc(10px + 100px)
+
+*/Pengurangan
+width: calc(100% - 10px)
+
+*/Perkalian
+Note: harus dengan nilai yang tidak memiliki satuan
+width: calc(10px * 2)
+
+*/Pembagian
+Note: harus dengan nilai yang tidak memiliki satuan dan ga bisa membagi pada satuan 0
+width: calc(10px / 2)
+
+*/Spasi
+width: calc(10px + 2px)
+
+*/Nesting
+adalah Calc yang bersarang
+width: calc(10px + calc(100px - 10px))
+.el{
+    width: calc(calc(100% / 4) - calc(1rem * 2));
+}
+
+CSS Variables / Custom Properties
+:root {
+    --header-height: 32px;
+}
+
+.el{
+    height: calc(var(--header-height) + 10px);
+    height: calc(100vh - var(--header-height))
+}
+
+https://caniuse.com/calc

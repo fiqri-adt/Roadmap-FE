@@ -1,0 +1,112 @@
+Flex Box: Flexible Box Module
+"Model layout 1 dimensi yang dapat mengatur jarak dan penjajaran antar item dalam sebuah container."
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox
+
+1 dimensi?
+"Hanya dapat mengatur 1 dimensi pada saat tertentu, antara baris atau kolom, tidak bisa keduanya sekaligus."
+
+2 dimensi?
+adalah CSS Grid
+
+Flexbox Layout Module
+"Sebuah modul yang menawarkan cara yang efektif untuk menyusun, mensejajarkan, dan mendistribusikan jarak antar item didalam sebuah container, 
+meskipun ukurannya dinamis atau bahkan kita tidak tau."
+
+Istilah pada Flex Box
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+Ada 2 hal yang harus diperhatikan:
+1. Flex Container
+2. Flex Items
+
+Beberapa istilah:
+- Main axis: ketika set elemen secara horizontal
+- Cross axis: ketika set elemen secara vertikal
+
+Ukuran dari container: Main Size,
+Ukuran dari item/kolom: Cross Size
+
+Kalo secara horizontal ada: Main Start, dan Main End
+Kalo secara vertikal ada: Cross Start, dan Cross End
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+Istilah pada Flex Box
+
+1. Main axis: Sumbu utama dari sebuah container yang menentukan urutan dari penempatan items secara horizontal,
+
+2. Main-Start || Main-End: Mulai dan berakhirnya items yang disimpan didalam Container,
+
+3. Main-Size: Ukuran (Width/height) dari container yang akan membuat dimensi dari items yang relatif terhadap main size.
+
+*/- Display
+
+display: flex;
+
+Definisi: Membuat sebuah elemen parent menjadi flex-box, dan membuat elemen-elemen di dalamnya bisa berprilaku flex juga.
+
+*/- Flex-direction: Mengatur arah urutan dari elemen didalamnya. Bisa secara horizontal dan kebalikannya, 
+atau secara Vertical dan kebalikannya.
+
+caranya:
+
+- flex-direction: row; // horizontal
+- flex-direction: row-reverse; // horizontal kebalikannya
+- flex-direction: column; // vertical
+- flex-direction: column-reverse; // vertical kebalikannya
+
+*/- Flex-wrap: ngatur ketika elemen yang dipunya tidak muat lagi didalam containernya.
+
+- flex-wrap: wrap; // elemen akan berpindah ke baris baru
+- flex-wrap: nowrap; // elemen tidak akan berpindah ke baris baru
+- flex-wrap: wrap-reverse; // elemen akan berpindah ke baris baru
+
+Definisi: Secara default, semua items didalam container akan berada pada satu baris meskipun ukurannya
+sudah tidak cukup, wrap memungkinkan untuk memindahkan items ke baris dibawahnya.
+
+*/- Justify Content: untuk mengatur rata / jarak didalam containernya.
+
+contoh:
+- justify-content: flex-start; // rata kiri
+- justify-content: flex-end; // rata kanan
+- justify-content: center; // rata tengah
+- justify-content: space-between; // rata tengah dengan jarak yang sama
+- justify-content: space-around; // rata tengah dengan jarak yang sama setengah2 dengan kiri dan kanannya.
+- justify-content: space-evenly; // rata tengah dengan jarak yang sama.
+
+*/- Align items: Ngatur kesejajaran antar items secara vertical.
+
+caranya:
+- align-items: flex-start; // kiri
+- align-items: flex-end; // kanan
+- align-items: center; // tengah
+- align-items: baseline; // garis dasar
+- align-items: stretch; // menyesuaikan dengan ukuran container
+
+Definisi: Mengatur perilaku penjajaran items terhadap Cross axis.
+
+*/ Align-content: fungsinya sama seperti items tapi berlaku jika lebih dari 1 baris.
+
+- align-content: flex-start; // kiri
+- align-content: flex-end; // kanan
+- align-content: center; // tengah
+- align-content: space-between; // rata tengah dengan jarak yang sama
+- align-content: space-around; // rata tengah dengan jarak yang sama setengah
+- align-content: stretch
+
+Definisi: Mengatur jarak antar items terhadap Cross axis
+(hanya berfungsi ketika items lebih dari 1 baris)
+
+- Order: untuk mengatur urutan dari elemen elemen nya.
+
+- flex-grow/flex: Mengatur ukuran dari si item nya.
+
+*/- Align-self: Mengatur perilaku penjajaran sebuah item yang spesifik terhadap Cross axis.
+
+caranya:
+- align-self: flex-start; // kiri
+- align-self: flex-end; // kanan
+- align-self: center; // tengah
+- align-self: baseline; // garis dasar
+- align-self: stretch; // menyesuaikan dengan ukuran container

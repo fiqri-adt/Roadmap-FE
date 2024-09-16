@@ -1,0 +1,35 @@
+CSS Value & Unit == Nilai dan Satuan pada CSS.
+
+contoh:
+
+.selector{
+    width: 80%;
+    height: 500px;
+}
+
+### Penjelasan ###
+- Nilai = 80, 500.
+- Satuan = %, px, dll.
+
+CSS Value:
+1. Integer,
+2. Number,
+3. Persen == "Merepresentasikan sebagian dari nilai tertentu. % selalu relative terhadap nilai yang lain.",
+4. Dimension (Number yang memiliki satuan dibelakangnya).
+
+- Beberapa kategori di Dimension:
+1. Length: Absolute, Relative.
+- Absolute: Pixel (px), Point (pt), Inch (in), cm, mm.
+- Relative: 
+    Em: relative terhadap ukuran font yang sedang digunakan, 
+    Rema; relative terhadap ukuran font "root" / <html>, 
+    Percentage (%): persentase ukuran relatif terhadap ukuran elemen parent,
+    ch: relatif terhadap lebar karakter '0' dari font yang sedang digunakan,
+    vh: relatif terhadap tinggi dari viewport,
+    vw: relatif terhadap lebar dari viewport,
+    vmin: relatif terhadap dimensi terkecil sebuah viewport,
+    vmax: relatif terhadap dimensi terbesar sebuah viewport.
+    ##Note: vh s/d vmax itu satuannya %.
+2. Angle: deg, rad, grad, turn
+3. Time: s, ms.
+4. Resolution: dpi (dot per inch),  dpcm (dot per centimeter), dppx (dot per pixel).
