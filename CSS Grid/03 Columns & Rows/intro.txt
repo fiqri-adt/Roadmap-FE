@@ -1,0 +1,75 @@
+CSS Grid Properties:
+
+1. Pada Container bisa berikan:
+*/Properties yang penting digunakan pada Colums dan rows
+- grid-template columns
+- grid-template rows
+- grid-auto-columns
+- grid-auto-rows
+- grid-auto-flow
+*/
+- grid-template-areas
+- grid-template
+- grid-columns-gap
+- grid-rows-gap
+- grid-gap
+- grid
+- justify-items
+- align-items
+- justify-content
+- align-content
+- place-items
+- place-content
+
+2. Pada Item bisa berikan:
+- grid-column
+- grid-row
+- grid-area
+- grid-column-start
+- grid-column-end
+- grid-row-start
+- grid-row-end
+- justify-self
+- align-self
+- place-self
+
+
+*/Definisi:
+1. grid-template-columns & grid-template-rows: 
+Mendefinisikan kolom/baris dengan cara menuliskan nilai dipisahkan oleh spasi. Nilai merepresentasikan ukuran grid track dan spasi merepresentasikan grid line.
+contoh:
+.container{
+    display: grid;
+    grid-template-columns: <track-size> ... | <line-name> <track-size> ... ;
+    grid-template-rows: <track-size> ... | <line-name> <track-size> ... ;
+}
+
+cara menentukan nya:
+- <track-size> : bisa berupa px, %, auto, atau fr (fraction).
+- <line-name> : bisa berupa huruf atau angka yang unik / nama yang bisa diberikan pada track.
+
+
+2. grid-auto-columns & grid-auto-rows:
+
+3. Explicit: Ketika secara jelas menuliskan ukuran dari Grid nya kolom dan barisnya,
+4. Implicit Grid: Ketika gridnya menentukan secara otomatis sisa nya dari kolom dan baris secara explicit
+
+5. Auto Columns & Auto Rows: Mengatur ukuran grid track yang tidak dituliskan pada grid-template(Implicit track)
+
+cth:
+.container{
+    grid-auto-columns: ;
+    grid-auto-rows: ;
+}
+
+6. Auto flow:
+Mengatur penempatan item / cell pada grid track , termasuk yang ditulis secara Implicit
+
+cth:
+.container{
+    grid-auto-flow: row | column | row dense | column dense ;
+}
+
+7. Grid Values
+- line name
+- fr (fraction): tinggal kasih angkanya nanti dihitungin sama CSS nya. Bisa bilangan bulat atau pecahan.
