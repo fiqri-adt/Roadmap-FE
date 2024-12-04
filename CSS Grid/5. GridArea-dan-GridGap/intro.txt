@@ -1,0 +1,2 @@
+grid-template-area:
+Mendefinisikan grid template menggunakan nama dari area yang ditulis pada property grid-area pada item.

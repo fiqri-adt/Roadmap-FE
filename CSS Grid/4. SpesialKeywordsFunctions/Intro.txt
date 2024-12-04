@@ -1,0 +1,14 @@
+Spesial Function dan Keyword
+- repeat()
+- min-contect & max-content
+- min-max() & max-max()
+- auto-fill & auto-fit
+
+1. Repeat():Menentukan ukuran grid track secara berulang.
+
+2. min-contect & max-content: Menentukan seberapa besar ukuran grid track berdasarkan content pada sebuah item.
+
+3. auto-fill & auto-fit: Menentukan jumlah item untuk berada pada grid track
+
+4. minmax(): Menentukan ukuran minimal dan maximal dari grid track.
+
