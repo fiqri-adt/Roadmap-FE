@@ -1,2 +1,17 @@
-grid-template-area:
+1. grid-template-area:
 Mendefinisikan grid template menggunakan nama dari area yang ditulis pada property grid-area pada item.
+
+Contoh:
+
+2. Grid-template
+Shorthand untuk Mendefinisikangrid-template-rows, grid-template-columns, dan grid-template-areas dalam satu deklarasi.
+
+3. grid-gap
+cara:
+- lama: grid-column-gap & grid-row-gap
+- baru: column-gap & row-gap
+
+4. Grid:
+- grid-template-columns: 1fr 2fr 1fr
+- grid-template-rows: 1fr 2fr 1fr
+- grid-template-areas: "header header header" "sidebar content content" "footer footer footer
